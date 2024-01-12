@@ -12,8 +12,8 @@ public class OpenAIConfig {
 	
 	private Logger logger = Logger.getLogger(OpenAIConfig.class.getName());
 	
-	@Value("${{openai.api.key}}")
-	String openApiKey;
+	@Value("${openai.api.key}")
+    String openApiKey;
 
 	@Bean
 	RestTemplate template() {
