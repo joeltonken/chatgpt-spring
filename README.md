@@ -7,6 +7,7 @@ Este projeto é uma aplicação Spring Boot construída com Java 17 que se conec
 - Java 17
 - Spring Boot
 - Insomnia ou Postman
+- Chave de API do OpenAI para acessar o ChatGPT
 
 ## Configuração
 
